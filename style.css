@@ -1,0 +1,61 @@
+article {
+  width: 800px;
+  margin: auto;
+  position: relative;
+}
+img {
+  width: 400px;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+@font-face {
+  font-family: myFont;
+  src: url(font/Montserrat-VariableFont_wght.ttf);
+}
+.item-name {
+  letter-spacing: 1.5px;
+  color: hsl(212, 16%, 50%);
+  font-family: myFont;
+}
+.description,
+.current-price {
+  font-weight: 700;
+  font-size: 25px;
+}
+.container {
+  text-align: center;
+  line-height: 57px;
+  background-color: white;
+  display: inline-block;
+  padding: 10px;
+  width: 50%;
+  position: absolute;
+}
+.current-price {
+  color: green;
+  font-weight: 700;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.befor-sale {
+  text-decoration: line-through;
+  color: gray;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.buttons {
+  background-color: hsl(158, 36%, 37%);
+  width: 140px;
+  color: White;
+  padding: 8px;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+i {
+  margin-right: 10px;
+}
+.buttons:hover {
+  cursor: pointer;
+}
